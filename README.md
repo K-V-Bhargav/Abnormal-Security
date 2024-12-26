@@ -107,5 +107,5 @@ The application should now be up and running at `http://localhost:3000` for the 
 
 ## Conclusion
 
-This project demonstrates the integration of modern web technologies, ensuring a secure, responsive, and user-friendly experience for registration, login, OTP validation, and profile management. By leveraging **React** for the front-end and **Node.js** with **Express** for the back-end, this full-stack application offers robust functionality that can be expanded further with additional features such as JWT-based authentication, advanced file management, and more.
+This project demonstrates the integration of modern web technologies, ensuring a secure, responsive, and user-friendly experience for registration, login, OTP validation, and profile management. By leveraging **React** for the front-end and **Node.js** with **Express** for the back-end, this full-stack application offers robust functionality that can be expanded further with additional features such as advanced file management, and more.
 
