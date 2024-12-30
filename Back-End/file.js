@@ -10,12 +10,10 @@ const fileSchema = new mongoose.Schema({
   phoneNumber: {
     type: String,
   },
-  reservedSeats: [
-    {
-      seatNumber: { type: Number, required: true },
-      reservedAt: { type: Date, default: Date.now },
-    },
-  ],
+  file: {
+    type: Array,
+    default: [],
+  },
 });
 
-module.exports = mongoose.model("seat", fileSchema);
+module.exports = mongoose.model("file", fileSchema);
